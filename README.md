@@ -1,5 +1,13 @@
 # Shop
 
+## Screenshots 📸
+![Localhost - Full - Generic Laptop - 26 11 2021 at ÖS 6 38 28](https://user-images.githubusercontent.com/71590619/143604546-6844f1ce-8eba-457e-84ef-9487def98653.jpg)
+
+## with filter
+![Localhost - Full - Generic Laptop - 26 11 2021 at ÖS 6 38 42](https://user-images.githubusercontent.com/71590619/143604586-bc564319-7a15-4989-9d7a-c40995c34cbd.jpg)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
 ## Development server
