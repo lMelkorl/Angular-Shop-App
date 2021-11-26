@@ -1,0 +1,24 @@
+.productBox{
+    padding: 10px;
+    margin: 5px;
+}
+img{
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    position: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,05fr);
+}
+
+@media only screen and (max-width: 768px) {
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    img{
+        width: auto;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,19 @@
+  
+<main class="form-signin">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+  
+      <div class="form-floating">
+        <input type="email" #userName="ngModel" [(ngModel)]="model.userName" class="form-control" name="password" id="userName" placeholder="Username">
+        <label for="userName">Username</label>
+      </div>
+      <br>
+      <div class="form-floating">
+        <input type="password" #password="ngModel" [(ngModel)]="model.password" name="password" class="form-control" id="password" placeholder="password">
+        <label for="password">Password</label>
+      </div>
+  
+      <button class="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2021-2022</p>
+    </form>
+  </main>
